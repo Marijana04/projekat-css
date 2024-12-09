@@ -1,0 +1,363 @@
+body{
+    background-color: black;
+}
+
+.nav{
+    height: auto;
+    width: auto;
+    margin: 30px 0px 30px 0px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #bcb9b2;
+    margin: 10px;
+    font-size: 40px;
+    background-color: black;
+    padding: 8px;
+    font-family: font1;
+}
+
+.nav a:hover{
+    background-color: black;
+    color: red;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+
+.slogan {
+    color: #bcb9b2;
+}
+
+.indexP {
+    text-align: center;
+    color: #bcb9b2;
+    font-size: 30px;
+    font-family: font2;
+    position: absolute;
+    top: 70%;
+}
+
+.onamaP{
+    color: #bcb9b2;
+    font-size: 30px;
+    font-family: font2;
+}
+
+.onamaP a{
+    text-decoration: none;
+    color: red;
+}
+
+.onamaP a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.uslugeP{
+    color: #bcb9b2;
+    font-size: 35px;
+}
+
+.uslugeP2{
+    color: #bcb9b2;
+    font-size: 40px;
+}
+
+.uslugeP2 a{
+    text-decoration: none;
+    color: red;
+}
+
+.uslugeP2 a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.uslugeP a{
+    text-decoration: none;
+    color: red;
+}
+
+.uslugeP a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.usluge img {
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin: 0px 20px;
+    border: 1px solid #bcb9b2;
+    border-radius: 10px;
+}
+
+.usluge h1{
+    color: #bcb9b2;
+}
+
+.usluge h2{
+    color: red;
+}
+
+.usluge li{
+    color: white;
+    font-size: 30px;
+    list-style-type: disc;
+}
+
+.cenovnik p{
+    color: #bcb9b2;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: font2;
+}
+
+.kontaktP{
+    color: #bcb9b2;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: font1;
+}
+
+.kontakt li{
+    color: #bcb9b2;
+    list-style-type: none;
+    display: inline-block;
+    margin: -20px 20px;
+    font-size: 20px;
+}
+.kontakt h2{
+    color: #bcb9b2;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: font2;
+}
+
+.kontakt a{
+color: red;
+text-decoration: none;
+}
+
+.kontakt a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+table{
+    border: 5px solid red;
+    padding: 10px;
+    width: 1100px;
+}
+
+.heder{
+    font-size: 30px;
+}
+
+td{
+    color: #bcb9b2;
+    font-family: font1;
+    padding: 5px;
+}
+
+.link{
+    color: red;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.prijava h2{
+    color: #bcb9b2;
+    font-family: font2;
+    margin: 10px 0px;
+}
+
+.prijava h1{
+    color: red;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: font1;
+    letter-spacing: 2px;
+}
+
+.forma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forma1{
+    color: white;
+    width: 50%;
+    height: 450px;
+    padding: 20px;
+}
+
+.forma2{
+    background-color: #bcb9b2;
+    width: 50%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 20px;
+    float: right;
+}
+
+.forma3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.forma1 p{
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+.forma1 input{
+    margin-left: 250px;
+    height: 20px;
+    width: 500px;
+}
+
+.forma2 p{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.forma2input{
+    margin-left: 50px;
+}
+
+.forma3 p{
+    color: white;
+    font-size: 20px;
+}
+
+.forma4 p{
+    color: white;
+}
+
+.dugme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: font1;
+    letter-spacing: 2px;
+    background-color: black;
+    color: red;
+    border: 2px solid red;}
+
+button:hover{
+    color: blue;
+    background-color: black;
+    border:2px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+.animacija{
+    background-color: red;
+    border: 10px solid yellow;
+    border-radius: 30px;
+    width: 300px;
+    height: 160px;
+    margin-top: 60px;
+    animation: akcija 0.7s infinite;
+}
+
+.animacija h1{
+    align-items: center;
+   position: relative;
+   top:10%;
+   font-size: 50px;
+}
+
+.slika1{
+    height: "250cm";
+    align-items: center;
+}
+
+.slika2{
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: linear-gradient(transparent, black);
+    mask-image: linear-gradient(transparent black);
+}
+
+.slika3{
+   width: 400px;
+
+}
+
+.slikeOnama img {
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #bcb9b2;
+}
+
+#slika4{
+    height: 600px;
+}
+
+.slika5{
+    width: 400px;
+}
+
+.slika6{
+    border-radius: 30px;
+}
+
+.slika7{
+    width: 400px;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../font/font2);
+}
+
+@keyframes akcija{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(10deg);}
+    100%{transform: rotate(-10deg);}
+}
+
+@media only screen and (max-width: 1500px) {
+   
+    .forma1 input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forma2 p input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forma{
+        display: inline-block;
+    }
+
+  }
